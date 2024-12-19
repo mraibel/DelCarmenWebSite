@@ -20,8 +20,8 @@ function ServiceCard({ title, description }) {
 
 export default function Services() {
     return (
-        <section className="mx-6 md:mx-24 flex flex-col items-center py-10 gap-10">
-            <h2 className="text-4xl font-semibold text-lightBlue transition-colors hover:text-blue-500 duration-300">
+        <section className="mx-6 md:mx-24 flex flex-col items-center py-5 pb-5 gap-5">
+            <h2 className="text-4xl font-semibold text-lightBlue">
                 Nuestros servicios
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">

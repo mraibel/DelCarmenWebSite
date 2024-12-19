@@ -5,6 +5,7 @@ import "./globals.css";
 import { NextUIProvider } from '@nextui-org/react';
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import WhatsAppIcon from "./components/WhatsAppIcon";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -26,6 +27,7 @@ export default function RootLayout({ children }) {
           <Header />
           {children}
           <Footer />
+          <WhatsAppIcon />
         </NextUIProvider>
       </body>
     </html>

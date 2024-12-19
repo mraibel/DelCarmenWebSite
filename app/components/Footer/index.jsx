@@ -17,7 +17,7 @@ export default function Footer() {
                         Email: correo@correo.com
                     </p>
                     <p>Teléfono: +56 9 1234 5678</p>
-                    <p>Dirección: Av. Salud Bucal 123, Santiago, Chile</p>
+                    <p>Dirección: Uno Sur 219, Av. Chile, Chillán</p>
                 </div>
 
                 {/* Sección: Redes Sociales */}
@@ -25,9 +25,10 @@ export default function Footer() {
                     <h3 className="text-xl font-semibold mb-4">Síguenos</h3>
                     <div className="flex gap-4">
                         <a
-                            href="https://facebook.com"
+                            href="https://www.facebook.com/delcarmen.odontologia"
                             className="hover:text-blue-500 transition-colors"
                             aria-label="Facebook"
+                            target="_blank"
                         >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -39,9 +40,10 @@ export default function Footer() {
                             </svg>
                         </a>
                         <a
-                            href="https://instagram.com"
+                            href="https://www.instagram.com/delcarmen.odontologia/"
                             className="hover:text-pink-500 transition-colors"
                             aria-label="Instagram"
+                            target="_blank"
                         >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
