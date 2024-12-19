@@ -9,7 +9,7 @@ export default function Header() {
             <div className="h-[50px] bg-black px-[150px] flex justify-between items-center">
                 <div className="flex gap-5">
                     <FaPhoneAlt size={25} color="#03acb4"/>
-                    <p>+56912345678</p>
+                    <p>+56 9 1234 5678</p>
                     <MdEmail size={25} color="#03acb4"/>
                     <p>correo@correo.com</p>
                 </div>
